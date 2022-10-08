@@ -1,0 +1,7 @@
+#! /usr/bin/env bash
+
+#  Put all setup scripting in here
+
+if [[ -f ".env.sample" ]]; then
+  cp .env.sample .env
+fi
